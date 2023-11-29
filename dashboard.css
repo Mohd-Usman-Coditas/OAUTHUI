@@ -51,7 +51,10 @@ body {
 }
 
 .userList {
-    margin-top: 20px;
+    overflow: scroll;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #c6c9cb;
 }
 
 /* Add more styles as needed */
