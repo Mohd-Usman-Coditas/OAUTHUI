@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="dashboard.js"></script>
+    <link href="dashboard.css" , rel="stylesheet">
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="popUp" id="popUpId">
+            <div id="receiver1Id">
+                <input type="text" placeholder="receiver1" class="inputPopUp" readonly>
+            </div>
+            <div id="receiver2Id">
+                <input type="text" placeholder="receiver2" class="inputPopUp">
+            </div>
+            <div>
+                <input type="text" placeholder="enter title" class="inputPopUp">
+            </div>
+            <div>
+                <input type="text" placeholder="enter discription" class="inputPopUp">
+            </div>
+            <div>
+                <input type="datetime-local" name="" id="" class="inputPopUp">
+            </div>
+            <div>
+                <input type="datetime-local" name="" id="" class="inputPopUp">
+            </div>
+            <button id="createEventButtonId">Submit</button>
+            <button id="cancel-popup">Cancel</button>
+        </div>
+        <div class="body">
+            <div class="header">
+                <div class="headerIn">
+                    <h6 id="currentUserId">Welcome Usman</h6>
+                </div>
+                <div id="logoutButtonId">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                </div>
+            </div>
+            <div class="userList">
+                <div>
+                    <ul id="userListId">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
