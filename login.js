@@ -32,7 +32,7 @@ if (id_token && code) {
             localStorage.setItem("oauthJwtToken", data['jwtToken']);
             localStorage.setItem("oauthRefreshToken", data['refreshToken']);
             localStorage.setItem("oauthId", data['userId']);
-            window.location.href = `${window.location.host}/dashboard.html`
+            window.location.href = `https://mohd-usman-coditas.github.io/OAUTHUI/dashboard.html`
         })
     });
 }

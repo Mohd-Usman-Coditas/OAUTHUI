@@ -6,7 +6,7 @@ document.getElementById("currentUserId").innerText = "Welcome, " + localStorage.
 document.getElementById("logoutButtonId").addEventListener("click", (e) => {
     e.preventDefault();
     localStorage.clear();
-    window.location.href = `${window.location.host}/login.html`;
+    window.location.href = `https://mohd-usman-coditas.github.io/OAUTHUI/login.html`;
 })
 
 function closePopUp() {
