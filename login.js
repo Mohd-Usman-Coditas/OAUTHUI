@@ -41,7 +41,7 @@ document.getElementById('loginBtn').addEventListener('click', (e) => {
     // Define the OAuth 2.0 parameters
     e.preventDefault();
     const clientId = '894866480970-rh1o7ggl33mhqfnkit0pd4scon069qgu.apps.googleusercontent.com';
-    const redirectUri = `http://${window.location.host}/login.html`;
+    const redirectUri = `https://${window.location.host}/OAUTHUI/login.html`;
     const scope = 'email profile https://www.googleapis.com/auth/calendar.events'; // Define the required scopes
 
     // Construct the authorization URL
