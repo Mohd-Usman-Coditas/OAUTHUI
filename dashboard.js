@@ -6,7 +6,7 @@ document.getElementById("currentUserId").innerText = "Welcome, " + localStorage.
 document.getElementById("logoutButtonId").addEventListener("click", (e) => {
     e.preventDefault();
     localStorage.clear();
-    window.location.href = "http://localhost:5500/login.html";
+    window.location.href = `${window.location.host}/login.html`;
 })
 
 function closePopUp() {

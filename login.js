@@ -32,7 +32,7 @@ if (id_token && code) {
             localStorage.setItem("oauthJwtToken", data['jwtToken']);
             localStorage.setItem("oauthRefreshToken", data['refreshToken']);
             localStorage.setItem("oauthId", data['userId']);
-            window.location.href = "http://localhost:5500/dashboard.html"
+            window.location.href = `${window.location.host}/dashboard.html`
         })
     });
 }
