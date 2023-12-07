@@ -1,5 +1,5 @@
 var url = window.location.href;
-const backendURL = "https://2d05-115-160-223-174.ngrok-free.app";
+const backendURL = "https://6e97-115-160-223-174.ngrok-free.app";
 
 // Use the URLSearchParams API to extract the access_token
 var urlParams = new URLSearchParams(url.split('#')[1]);

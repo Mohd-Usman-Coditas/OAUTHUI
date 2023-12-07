@@ -1,4 +1,4 @@
-const backendURL = "https://2d05-115-160-223-174.ngrok-free.app"
+const backendURL = "https://6e97-115-160-223-174.ngrok-free.app"
 const token = `Bearer ${localStorage.getItem("oauthJwtToken")}`;
 
 document.getElementById("currentUserId").innerText = "Welcome, " + localStorage.getItem("oauthUsername");
